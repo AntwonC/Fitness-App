@@ -11,7 +11,7 @@ body {
   padding: 0;
 }
 
-.title-a {
+/*.title-a {
   grid-area: titleA;
   background-color: orange; 
   height: 10vh;
@@ -79,4 +79,4 @@ body {
   margin: 0 auto;
 
   
-}
+} */
