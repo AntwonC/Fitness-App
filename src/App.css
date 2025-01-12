@@ -1,7 +1,25 @@
 .square {
-  height: 50px;
-  width: 100px;
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  width: 300px;
   background-color: orange;
+  gap: 5px;
+}
+
+.input-inside-square {
+  height: 25px;
+  
+}
+
+.square-button {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.button-container {
+  display: flex;
+  gap: 5px;
 }
 
 body {
