@@ -5,12 +5,17 @@
     width: 300px;
     background-color: orange;
     
+    
 }
 
 .button-container {
     display: flex;
     justify-content: center;
     gap: 5px;
+}
+
+.grid-container {
+    margin-top: 7em;
 }
 
 body {
