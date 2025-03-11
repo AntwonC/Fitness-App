@@ -20,6 +20,13 @@ createRoot(document.getElementById('root')!).render(
           
             }>
           </Route>
+
+          <Route path="/register" element={
+            
+            <Register />
+            
+            }>
+          </Route>
         
       </Routes>
     </BrowserRouter>

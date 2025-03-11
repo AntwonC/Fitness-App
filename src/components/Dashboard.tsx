@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Button, Col, Row, Input } from 'antd';
+import { useNavigate } from 'react-router';
 
 
 
@@ -7,7 +8,25 @@ import { Button, Col, Row, Input } from 'antd';
 import '../styles/Dashboard.css'
 
 
+
+
 const Dashboard = () => {
+    let navigate = useNavigate();
+
+    const registerButtonClicked = () => {
+        console.log("register button clicked");
+        console.log("Creating navigate variable for useNavigate()...");
+        
+        
+        console.log("Navigating....");
+        
+        navigate(`/register`);
+        
+        console.log("Navigation done!");
+        
+        
+    }
+
     return (
         
         <div className="square">
@@ -18,7 +37,7 @@ const Dashboard = () => {
                 
 
                     <Col>
-                        <Button variant="outlined" color="default" size="small"  style={{ width: '7em'}}>Register</Button>
+                        <Button variant="outlined" color="default" size="small"  style={{ width: '7em'}} onClick={registerButtonClicked}>Register</Button>
                         
                     </Col>
 
@@ -35,6 +54,8 @@ const Dashboard = () => {
         </div>  
     )
 }
+
+
 
 export default Dashboard;
 
