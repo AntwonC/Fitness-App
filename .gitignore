@@ -12,6 +12,7 @@ backend
 dist
 dist-ssr
 *.local
+src/main.tsx
 
 # Editor directories and files
 .vscode/*

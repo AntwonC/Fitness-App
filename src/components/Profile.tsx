@@ -5,7 +5,14 @@ import  LogoutButton from './LogoutButton';
 const Profile = () => {
     const { user, isAuthenticated, isLoading } = useAuth0();
 
-    
+    console.log(user); 
+    console.log(isAuthenticated);
+    console.log(isLoading);
+
+    if( user === undefined ) {
+        // should log user out
+    }
+
     if( isLoading ) {
         return <div>Loading...</div>;
     }
