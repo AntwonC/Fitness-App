@@ -9,8 +9,8 @@ const Profile = () => {
     console.log(isAuthenticated);
     console.log(isLoading);
 
-    if( user === undefined ) {
-        // should log user out
+    if(user === undefined) {
+        console.log("user is undefined");
     }
 
     if( isLoading ) {
