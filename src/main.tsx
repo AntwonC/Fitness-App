@@ -11,6 +11,7 @@ import Dashboard from './components/Dashboard.tsx'
 import Register from './components/Register.tsx'
 import Login from './components/LoginButton.tsx'
 import Logout from './components/LogoutButton.tsx'
+import Profile from './components/Profile.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -36,7 +37,8 @@ createRoot(document.getElementById('root')!).render(
          </Route>
 
          <Route path="/dashboard" element={
-              <Register />
+              <Profile />
+  
               
           }>
 
