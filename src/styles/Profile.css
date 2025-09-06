@@ -1,0 +1,32 @@
+.ProfileContainer {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    
+}
+
+.ProfileImage {
+    width: 50px;
+    height: 50px;
+}
+
+.ProfileName {
+    font-size: 12px;
+}
+
+.MainMenu {
+    
+}
+
+
+/**.ProfileImage {
+    flex-shrink: 1;
+}
+
+.ProfileName {
+    flex-shrink: 3;
+}
+
+.ProfileEmail {
+    flex-shrink: 2;
+} **/
