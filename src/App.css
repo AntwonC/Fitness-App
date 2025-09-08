@@ -22,12 +22,6 @@
   gap: 5px;
 }
 
-body {
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  padding: 0;
-}
 
 /*.title-a {
   grid-area: titleA;
